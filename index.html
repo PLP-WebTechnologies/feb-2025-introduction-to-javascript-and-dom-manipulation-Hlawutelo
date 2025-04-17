@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to the world of develops</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="title">world of develops</h1>
+        <nav>
+            <ul>
+                <li><a href="#text-section">Text Change</a></li>
+                <li><a href="#style-section">Style Toggle</a></li>
+                <li><a href="#element-section">Element Management</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text-section">
+            <h2>Text Manipulation</h2>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section id="style-section">
+            <h2>Style Toggle</h2>
+            <p id="styleText">This paragraph's style can be modified</p>
+            <button onclick="toggleStyle()">Toggle Style</button>
+        </section>
+
+        <section id="element-section">
+            <h2>Element Management</h2>
+            <div id="container">
+                <button onclick="addElement()">Add Element</button>
+                <button onclick="removeElement()">Remove Element</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 html</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
